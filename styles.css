@@ -14,15 +14,17 @@ ul {
   padding: 0;
 }
 
-.header, .hero {
+.hero {
   background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 150px 90px 150px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 150px 0;
 }
 
 .header-logo {
@@ -42,18 +44,17 @@ ul {
   padding-left: 40px;
 }
 
-.hero {
+.hero-body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 90px 150px;
+  padding-top: 90px;
 }
 
 .hero-main {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
-  margin: 0;
 }
 
 .button {
@@ -67,7 +68,7 @@ ul {
 }
 
 .hero-img {
-  max-width: 600px;
+  max-width: 500px;
   height: auto;
   padding-left: 40px;
 }
