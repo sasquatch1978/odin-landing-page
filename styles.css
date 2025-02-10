@@ -126,14 +126,10 @@ ul {
   font-weight: 300;
   font-style: italic;
   margin: 0;
-  /* Made this flex and justified content to end, so quote author would stay to
-     the right of quote when window shrinks. Probably a much cleaner way to do this. */
- 
 }
 
 .quote div {
   font-size: 22px;
   font-weight: bold;
-  
   padding-top: 6px;
 }
