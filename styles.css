@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 body {
   height: 100vh;
@@ -108,5 +108,32 @@ ul {
 
 .destinations span {
   text-align: center;
+  padding-top: 6px;
+}
+
+/* Quote section */
+.quote {
+  color: #1f2937;
+  background-color: #e5e7eb;
+  padding: 100px 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+  /* Made this flex and justified content to end, so quote author would stay to
+     the right of quote when window shrinks. Probably a much cleaner way to do this. */
+ 
+}
+
+.quote div {
+  font-size: 22px;
+  font-weight: bold;
+  
   padding-top: 6px;
 }
