@@ -143,22 +143,28 @@ ul {
 }
 
 /* Call to action section */
-.action, .action button {
+.action {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-body, .action button {
+  font-size: 18px;
   color: #f9faf8;
   background-color: #3882f6;
 }
 
-.action {
-  font-size: 18px;
+.action-body {
   border: 0;
   border-radius: 8px;
-  min-width: 100px;
-  margin: 100px 150px;
-  padding: 50px 100px;
+  width: 1500px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 8px;
+  padding: 50px;
 }
 
 .action-header {
@@ -167,7 +173,6 @@ ul {
 }
 
 .action button {
-  font-size: 18px;
   font-weight: 700;
   border: 2px solid;
   border-color: #f9faf8;
