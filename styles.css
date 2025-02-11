@@ -99,9 +99,10 @@ ul {
 }
 
 .destinations-link {
+  width: 300px;
   display: flex;
   flex-direction: column;
-  width: 300px;
+  gap: 6px;
 }
 
 .destinations img {
@@ -114,7 +115,6 @@ ul {
 
 .destinations span {
   text-align: center;
-  padding-top: 6px;
 }
 
 /* Quote section */
