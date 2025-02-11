@@ -76,21 +76,26 @@ ul {
 }
 
 /* Information section */
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 100px 100px;
+}
+
 .info-header {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
+  text-align: center;
 }
 
 .destinations {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 32px;
-  padding: 30px;
 }
 
 .destinations-link {
