@@ -14,6 +14,26 @@ ul {
   padding: 0;
 }
 
+/* Internal Links */
+.header-int-link {
+  background-color: #1f2937;
+  padding: 16px 100px;
+}
+
+.content {
+  color: #1f2937;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.content span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 /* Hero section */
 .hero {
   background-color: #1f2937;
